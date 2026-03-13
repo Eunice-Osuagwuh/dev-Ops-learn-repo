@@ -1,4 +1,4 @@
-# 1) Pipeline goal: lint -> build -> smoke-test -> deploy -> cleanup using Azure publish profile.
+# 1) Pipeline goal: lint -> build -> smoke-test -> deploy -> cleanup using Azure publish profile..
 
 name: Azure Publish Profile Pipeline
 
