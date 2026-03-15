@@ -3,15 +3,11 @@
 
 name: Azure OIDC Pipeline
 
-
-# on:
+on:
   workflow_dispatch:
-
-  on:
-      workflow_dispatch:
-      push:
-          branches:
-              - dev
+  push:
+    branches:
+      - dev
 
 permissions:
   id-token: write
