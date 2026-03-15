@@ -4,9 +4,12 @@ name: Azure Publish Profile Pipeline
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - dev
+
+# on:
+#     workflow_dispatch:
+#     push:
+#         branches:
+#             - 
 
 jobs:
   # 2) Lint job: run repo safety checks first.
